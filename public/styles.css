@@ -1,0 +1,96 @@
+body{
+    background: url(https://images.template.net/wp-content/uploads/2016/04/16071519/Nature-Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    color:#fff;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+title img{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+#messages{
+    height: 80vh;
+    max-width: 95%;
+    padding: 15px;
+    /* border: 4px groove #fff; */
+    margin-left:2%;
+}
+form{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top:88%
+}
+#m{
+    width: 90%;
+    padding: 3px;
+    border-radius: 9px;
+    border: 3px solid #fff;
+    outline: none;
+}
+#m:focus{
+    caret-color: navy;
+    border: 2px solid black;
+}
+li{
+    font-size: large;
+    font-weight: bold;
+    /* background-color: rgb(255,255,255,0.6); */
+    list-style-type: none;
+    line-break: normal;
+}
+button{
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 5px;
+    width: 4%;
+    border-radius:7px;
+    background-color: green;
+}
+
+script #messages #list #m{
+    float: right;
+}
+/* #title{
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+}
+.container{
+    border:5px groove white;
+    max-width: 70%;
+    padding: 100px;
+    margin-bottom: 25px;
+}
+.message{
+    background-color: cyan;
+    font-family: cursive;
+    padding: 10px;
+    width: 25%;
+    margin: 17px 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+}
+.left{
+    float:left ;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 1050px;
+} */
